@@ -697,6 +697,10 @@ h1, h2, h3, h4 { letter-spacing: -0.02em; font-weight: 800; }
   padding: 24px 20px;
   text-align: center;
   box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .stat-num { display: block; font-size: 1.875rem; font-weight: 800; color: var(--color-primary-dark); margin-bottom: 8px; }
 .stat-num small { font-size: 1rem; font-weight: 600; margin-left: 2px; }
